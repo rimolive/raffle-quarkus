@@ -2,7 +2,7 @@ Raffle application using Quarkus
 ================================
 
 This simple Raffle application is used to raffle swags in conferences. It it a
-Rest application that performs a raffle using Twitter and Instagram
+Rest application using Quarkus that performs a raffle using Twitter and Instagram. 
 
 Configuring the application
 ---------------------------
@@ -20,7 +20,7 @@ For the new App, Get the Consumer API keys, Access token & access token secret (
 Run the following command after cloning this repo to avoid accidental commits of this file.
 
 ```
-git update=index ==assume=unchanged src/main/resources/twitter4j.properties
+git update=index --assume=unchanged src/main/resources/twitter4j.properties
 ```
 
 Executing the application
